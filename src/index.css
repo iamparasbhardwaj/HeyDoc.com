@@ -1,14 +1,43 @@
 body {
+  background-color: black;
+  margin-top: 0px;
+overflow: hidden;
+}
+b{
+  font-size: 25px;
+  color: #fff;
+  
+}
+.button{
+            
+  /*top: 265px;
+  left: 535px;
+  position: relative;*/
+background-color: #CD5C5C;
+border: 2px solid white;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 40px;
+-webkit-transition-duration: 0.4s; 
 
 }
-.image{
-    width:100%;
-    height: 100%;
-    position: absolute;
-    top: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
 
+.do{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  background-image: url(./photos/doctor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  overflow: hidden;
 }
 .title{
   margin-top: 0PX;
@@ -22,4 +51,42 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.col-md-6{
+  width: 304px;
+  height: 400px;
+  background: rgba (0,0,.2);
+  box-shadow: 5px 5px 30px #CD5C5C;
+   position: absolute;
+  top: 180px;
+  left: 450px;
+}
+form{
+  margin: 30px auto;
+  text-align: center;
+  
+}
+input{
+  width: 704;
+  outline: none;
+  padding: 10px 11px;
+  border: 1px #aaa solid;
+  font-size: 15px;
+  background: #fff;
+  display: block;
+  margin: 20px auto;
+}
+.next{
+  background-color: #CD5C5C;
+border: 2px solid white;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 40px;
+-webkit-transition-duration: 0.4s; 
 }
